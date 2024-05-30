@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
+}
+
+form {
+  background: grey;
+  padding: 20px;
+  margin: 50px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 520px;
+  border-radius: 20px;
+}
+input,
+textarea {
+  display: block;
+  width: 500px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+input,
+textarea:focus {
+  outline: none;
+}
+button {
+  background-color: rgb(10, 113, 239);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+#a,
+#a2 {
+  text-decoration: none;
+  background-color: rgb(10, 113, 239);
+  color: white;
+  border-radius: 10px;
+  margin-right: 20px;
+  padding: 7px;
+}
+#a {
+  background-color: green;
+}
+#a2 {
+  background-color: red;
+}
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: none;
+}
+
+th {
+  background: rgb(10, 113, 239);
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.h {
+  background: rgb(10, 113, 239);
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+.h:hover {
+  text-decoration: none;
+}
+.j {
+  margin-top: 30px;
+  margin-right: 30px;
+}
